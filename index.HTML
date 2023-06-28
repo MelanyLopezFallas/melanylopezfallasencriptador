@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generador de encriptación</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="Style.css"> 
+  <link rel="stylesheet" href="Bebas_Neue/BebasNeue-Regular.ttf">
+  <link rel="stylesheet" href="Monomaniac_One/MonomaniacOne-Regular.ttf">
+</head>
+<body>
+  <header>
+    <img class="LogoAlura" src="images/Logo@2x.png" alt="logoAlura">
+    <h1 class="encabezado">Encriptador</h1>
+  </header>
+  <main class="cuerpopagina">
+    <section class="Bottons">
+      <textarea class="text-area" placeholder="Escribe el texto aquí"></textarea>
+      <div class="Piezabaja">
+        <h6 class="informacion"> &#8667; Solo letras minúsculas y sin acentos, NO espacios.</h6>
+      </div>
+      <div class="botones">
+        <button class="Encriptador" onclick="Encriptador()">Encriptar</button>
+        <button class="Desencriptador" onclick="Desencriptador()">Desencriptar</button>
+      </div>
+    </section>
+    <section class="textousuario">
+      <textarea class="mensaje" readonly></textarea>
+      <div class="buttoncopy">
+        <button class="copiar" onclick="copiar()">Copiar</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a href="https://www.linkedin.com/in/melany-l%C3%B3pez-fallas/" target="_blank">
+        <img class="iconolinkedin" src="images/icone-linkedin-ronde-rose.png" alt="LinkedIn">
+    </a>
+</footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
